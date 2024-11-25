@@ -84,3 +84,77 @@ Lista anidada:
 2. Segundo elemento
 
 ---
+## 2. Gráfico
+
+```
+Enlaces y referencias:
+
+Enlaces a páginas:
+<https://www.google.com> - URL directa
+[Enlace a Google](https://www.google.com) - Enlace con texto
+[Enlace con título y texto alternativo](https://www.google.com "Google's Homepage") - Enlace con título y texto alternativo
+
+Enlace a otra páginas del sitio:
+[Enlace a la página de inicio](/) - Enlace a la página de inicio
+[Enlace a una página](ruta) - Enlace a una página específica
+
+
+Citas multimedia:
+![Texto alternativo](ruta/imagen.jpg) - Imagen con texto alternativo
+
+(uniendo los < y > a los corchetes)
+{{ <youtube codigoVideo> }} - Ventana de video de youtube
+
+
+Citas en bloque:
+> Esto es una cita en bloque
+> > Esto es un bloque anidado
+> >
+> > con varios parrafos
+> > ### y otros elementos dentro
+
+
+```
+Como se vé:
+
+<https://www.google.com>
+
+[Enlace a Google](https://www.google.com)
+
+[Enlace con título y texto alternativo](https://www.google.com "Página inicial de google")
+
+[Enlace a la página de inicio](/)
+
+[Enlace a una música](../musica) 
+
+![Imagen de ejemplo](/images/PajaroBuho.png)
+
+{{<youtube jQGqtCalg9Y>}}
+
+> Esto es una cita en bloque
+> > Esto es un bloque anidado
+> >
+> > con varios parrafos
+> > ### y otros elementos dentro
+
+
+```mermaid
+graph LR;
+A --> B
+B --> A
+C --> D
+B --> E
+D --> E
+```
+
+Como se vé:
+
+graph LR;
+
+A --> B
+B --> A
+C --> D
+B --> E
+D --> E
+
+---
