@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<main>
+    {{ .Content }}
+
+    <ul>
+        {{ range .Site.Data.tv }}
+        <h2>
+            <li>{{ .name }}</li>
+        </h2>
+        <hr>
+        {{ range .channels }}
+        <a href="{{ .web }}">
+            <img src="{{ .logo }}" alt="{{ .name }}">
+        </a>
+        {{ end }}
+        {{ end }}        
+    </ul>
+    <p>
+        <a href="/"> >> Home</a>
+    </p>
+</main>
+
+{{ end }}
