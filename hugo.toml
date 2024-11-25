@@ -1,3 +1,29 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sitio Lucas Perez'
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+lastmod = true
+
+[params]
+  author = "Lucas Pérez"
+  description = "Web developer"
+  github = "L-ker"
+  linkedin = "Lucas Pérez"
+  instagram = "Luker.rr"
+  email = "lucasperezgar@gmail.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😺"
+  favicon = "/images/github.png"
+  avatar = "/images/avatarGato.png"
+  headerIcon = "/images/GitHub-Mark-white.png"
+  location = "Zaragoza"
+
+
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
