@@ -151,9 +151,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Tue, 26 Nov 2024 00:14:07 &#43;0100"
+                  Modified <relative-time datetime="Tue, 26 Nov 2024 00:32:37 &#43;0100"
                     class="no-wrap">
-                    Tue, 26 Nov 2024 00:14:07 &#43;0100</relative-time>
+                    Tue, 26 Nov 2024 00:32:37 &#43;0100</relative-time>
                   
                 </div>
               </div>
@@ -183,7 +183,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      0 Words
+                      347 Words
                     
 
                   </div>
@@ -195,7 +195,74 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"></article>
+                <article class="markdown-body entry-content container-lg"><h1 id="introducción">Introducción</h1>
+<p>JavaScript es un lenguaje de programación dinámico y versátil, utilizado principalmente en el desarrollo web. Es esencial para crear páginas web interactivas y mejorar la experiencia del usuario. Aquí tienes los conceptos básicos:</p>
+<ul>
+<li>Lenguaje interpretado: Se ejecuta directamente en el navegador sin necesidad de compilación.</li>
+<li>Multiparadigma: Soporta programación funcional, orientada a objetos y procedimental.</li>
+<li>Basado en eventos: Ideal para manejar interacciones del usuario.</li>
+</ul>
+<h1 id="tipos-de-datos">Tipos de datos:</h1>
+<ul>
+<li>String: Cadenas de texto. Ejemplo: &ldquo;Hola, mundo&rdquo;</li>
+<li>Number: Números. Ejemplo: 42, 3.14</li>
+<li>Boolean: Valores lógicos. Ejemplo: true, false</li>
+<li>Undefined: Variable declarada pero no inicializada.</li>
+<li>Null: Ausencia de valor.</li>
+<li>Symbol y BigInt: Introducidos en versiones más recientes.</li>
+<li>Objetos: Colecciones de datos clave-valor. Ejemplo: { nombre: &ldquo;Juan&rdquo;, edad: 30 }.</li>
+</ul>
+<h1 id="declaración-de-variables">Declaración de variables:</h1>
+<ul>
+<li>var (obsoleto en muchos casos).</li>
+<li>let (para variables con ámbito de bloque).</li>
+<li>const (para constantes).</li>
+</ul>
+<h1 id="diferencias-principales-entre-var-y-let">Diferencias principales entre var y let:</h1>
+<p>Cuando declaramos una variable con var se inicializa automaticamente a undefined mientras que las variables con let no lo hacen, las variables declaradas con var dentro de una funcion existen solo dentro de esta y si no son declaradas dentro de una función son variables globales mientras que las variables con let tienen ámbito de bloque y las variables declaradas con var permiten hoisting mientras que las declaradas con let no.</p>
+<h1 id="operadores">Operadores:</h1>
+<ul>
+<li>Aritméticos: +, -, *, /, %</li>
+<li>Comparación: ==, ===, !=, &lt;, &gt;</li>
+<li>Lógicos: &amp;&amp; (AND), || (OR), ! (NOT)</li>
+</ul>
+<h1 id="estructuras-de-control">Estructuras de control:</h1>
+<ul>
+<li>Condicionales:</li>
+</ul>
+<p>if (edad &gt; 18) {
+console.log(&ldquo;Mayor de edad&rdquo;);
+} else {
+console.log(&ldquo;Menor de edad&rdquo;);
+}</p>
+<p>ternarios:</p>
+<p>let mensaje = (edad &gt;= 18) ? &ldquo;Eres mayor de edad&rdquo; : &ldquo;Eres menor de edad&rdquo;;</p>
+<ul>
+<li>Bucles:</li>
+</ul>
+<p>for (let i = 0; i &lt; 5; i++) {
+console.log(i);
+}</p>
+<h1 id="funciones">Funciones:</h1>
+<ul>
+<li>Declaración básica:</li>
+</ul>
+<p>function sumar(a, b) {
+return a + b;
+}
+Funciones flecha (ES6+):</p>
+<p>const sumar = (a, b) =&gt; a + b;</p>
+<h1 id="arrays-y-objetos">Arrays y objetos:</h1>
+<p>Array: Lista ordenada de elementos.
+let frutas = [&ldquo;manzana&rdquo;, &ldquo;banana&rdquo;, &ldquo;pera&rdquo;];
+console.log(frutas[0]); // &ldquo;manzana&rdquo;</p>
+<p>Objeto: Colección de propiedades.
+let persona = { nombre: &ldquo;Luis&rdquo;, edad: 25 };
+console.log(persona.nombre); // &ldquo;Luis&rdquo;</p>
+<h1 id="manipulación-del-dom">Manipulación del DOM:</h1>
+<p>Permite interactuar con elementos HTML:</p>
+<p>document.getElementById(&ldquo;miElemento&rdquo;).innerText = &ldquo;Hola!&rdquo;;</p>
+</article>
               </div>
             </div>
           </div>
