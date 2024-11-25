@@ -158,3 +158,36 @@ B --> E
 D --> E
 
 ---
+
+## 3. Extendido
+
+```
+Así se hace una tabla:
+| Encabezado 1 | Encabezado 2 |
+|--------------|--------------|
+| Celda 1      | Celda 2      |
+| Celda 3      | Celda 4      |
+
+Con el contenido alineado:
+| Izquierda | Centro | Derecha |
+|:----------|:------:|--------:|
+| Texto     | Texto  | Texto   |
+
+Creacion de notas:
+
+```
+
+Como se vé:
+
+| Encabezado 1 | Encabezado 2 |
+|--------------|--------------|
+| Celda 1      | Celda 2      |
+| Celda 3      | Celda 4      |
+
+| Izquierda | Centro | Derecha |
+|:----------|:------:|--------:|
+| Texto     | Texto  | Texto   |
+
+- [x] Tarea completada
+- [ ] Tarea pendiente
+- [ ] ~~Tarea cancelada~~
