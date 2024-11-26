@@ -7,7 +7,4 @@ math: true
 layout: tv
 ---
 {{< cargarPartials name="header" >}}
-
-{{< cargarPartials name="post" >}}
-
 {{< cargarPartials name="footer" >}}
