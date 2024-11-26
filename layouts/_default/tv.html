@@ -1,4 +1,5 @@
 <body>
+    {{ block "main" . }}
 <h1>Listado de canales</h1>
 <ul>
   {{ range .Site.Data.tv}}
@@ -21,4 +22,5 @@
     </table>
   {{ end}}
 </ul>
+{{ end }}
 </body>
