@@ -7,9 +7,11 @@ math: true
 ---
 # A Great chaos
 de Ken carson
+
 ![A Great Chaos](aGreatChaos.png)
 # Damn
 de Kendrick Lamar
+
 ![Damn](Damn.png)
 
 # Mm... Food
@@ -19,4 +21,5 @@ de MF DOOM
 
 # Hardstone Psycho
 de Don Toliver
+
 ![HardstonePsycho](hardstonePsycho.png)
