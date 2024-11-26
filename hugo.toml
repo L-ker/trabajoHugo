@@ -18,9 +18,9 @@ lastmod = true
   rss = true
   lastmod = true
   userStatusEmoji = "😺"
-  favicon = "/images/github.png"
+  favicon = "images/github.png"
   avatar = "images/avatarGato.png"
-  headerIcon = "/images/GitHub-Mark-white.png"
+  headerIcon = "images/GitHub-Mark-white.png"
   location = "Zaragoza"
 
 
