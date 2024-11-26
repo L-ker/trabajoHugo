@@ -7,4 +7,4 @@ math: true
 layout: tv
 ---
 
-{{< load_partial name="header" >}}
+{{< cargarPartials name="header" >}}
