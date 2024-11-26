@@ -7,4 +7,5 @@ math: true
 layout: tv
 ---
 {{< cargarPartials name="header" >}}
+{{< cargarPartials name="extended_head" >}}
 {{< cargarPartials name="footer" >}}
