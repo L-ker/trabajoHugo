@@ -6,6 +6,6 @@ summary: "Esta página muestra canales de televisión"
 math: true
 layout: tv
 ---
-
+{{< cargarPartials name="head" >}}
 {{< cargarPartials name="header" >}}
 {{< cargarPartials name="footer" >}}
