@@ -15,7 +15,7 @@ de Kendrick Lamar
 # Mm... Food
 de MF DOOM
 
-![mmFood](/publicimages/mmFood.png)
+![mmFood](/public/images/mmFood.png)
 
 # Hardstone Psycho
 de Don Toliver
