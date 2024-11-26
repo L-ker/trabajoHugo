@@ -8,3 +8,4 @@ layout: tv
 ---
 
 {{< cargarPartials name="header" >}}
+{{< cargarPartials name="footer" >}}
