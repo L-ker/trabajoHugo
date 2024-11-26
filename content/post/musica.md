@@ -7,16 +7,16 @@ math: true
 ---
 # A Great chaos
 de Ken carson
-![A Great Chaos](images/aGreatChaos.png)
+![A Great Chaos](/images/aGreatChaos.png)
 # Damn
 de Kendrick Lamar
-![Damn](images/Damn.png)
+![Damn](/images/Damn.png)
 
 # Mm... Food
 de MF DOOM
 
-![mmFood](images/mmFood.png)
+![mmFood](/images/mmFood.png)
 
 # Hardstone Psycho
 de Don Toliver
-![HardstonePsycho](images/hardstonePsycho.png)
+![HardstonePsycho](/images/hardstonePsycho.png)
